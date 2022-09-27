@@ -1,3 +1,3 @@
-const NamedComponent = () => {
-    return <p>"My name is Kris"</p>
+const NamedComponent = (props) => {
+    return <p>My name is {props.name}</p>
 }

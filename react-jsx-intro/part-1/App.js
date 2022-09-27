@@ -2,7 +2,7 @@ const App = () => {
     return (
     <div>
         <FirstComponent />
-        <NamedComponent />
+        <NamedComponent name="Kris" />
     </div>
     )
 }
